@@ -47,7 +47,7 @@ Final VCF Output
 │   └── utils.snakefile \
 ├── scripts/ \
 ├── logs/ \
-└── benchmarks/ \
+└── benchmarks/ 
 
 ---
 
