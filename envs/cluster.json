@@ -1,0 +1,42 @@
+{
+    "__default__": {
+        "time": "12:00:00",
+        "threads": "1",
+        "mem": "30",
+        "jobName": "{rule}.{wildcards.sample}.",
+        "output": "logs/{rule}.{wildcards.sample}.stdout",
+        "error": "logs/{rule}.{wildcards.sample}.stderr"
+    },
+    "bwa": {
+        "threads": "16"
+    },
+    "sortbam": {
+        "threads": "16"
+    },
+    "index_sbam": {
+        "threads": "1"
+    },
+    "md_sbam": {
+        "threads": "16"
+    },
+    "index_mdbam": {
+        "threads": "1"
+    },
+    "haplotypecaller": {
+        "threads": "16"
+    },
+    "realigner_tc": {
+        "threads": "8"
+    },
+    "indelrealigner": {
+        "threads": "16"
+    },
+    "index_irbam": {
+        "threads": "1"
+    },
+    "zip_vcf": {
+        "threads": "8"
+    },
+    "index_vcf": {
+        "threads": "1"
+}}

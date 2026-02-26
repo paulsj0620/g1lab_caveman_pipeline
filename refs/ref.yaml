@@ -1,0 +1,30 @@
+species: Human
+version: 37
+genome_idx: /data/ref/human/human_g1k_v37.fasta.fai
+ignore_regions: /data/SJ/projects/for_GH/caveman/ignore_regions_bed/ignore_touch.tsv
+chromosome_num:
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "5"
+    - "6"
+    - "7"
+    - "8"
+    - "9"
+    - "10"
+    - "11"
+    - "12"
+    - "13"
+    - "14"
+    - "15"
+    - "16"
+    - "17"
+    - "18"
+    - "19"
+    - "20"
+    - "21"
+    - "22"
+    - "X"
+    - "Y"
+    - "MT"
