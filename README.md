@@ -37,17 +37,17 @@ Final VCF Output
 ## 📂 Repository Structure
 
 .
-├── Snakefile
-├── config/
-│   └── config.yaml
-├── modules/
-│   ├── alignment.snakefile
-│   ├── caveman.snakefile
-│   ├── filtering.snakefile
-│   └── utils.snakefile
-├── scripts/
-├── logs/
-└── benchmarks/
+├── Snakefile \
+├── config/ \
+│   └── config.yaml \
+├── modules/ \
+│   ├── alignment.snakefile \
+│   ├── caveman.snakefile \
+│   ├── filtering.snakefile \
+│   └── utils.snakefile \
+├── scripts/ \
+├── logs/ \
+└── benchmarks/ \
 
 ---
 
